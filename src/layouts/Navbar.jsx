@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="sticky top-0 bg-white shadow z-50 mb-0.5">
       <div className="container  flex justify-between items-center py-14">
         <Link to="/">
-          <img src="/logo.png" alt="logo" />
+          <img src="/logo.png" alt="logo" className="h-auto" />
         </Link>
         {/* for computer */}
         <div className="hidden md:block">

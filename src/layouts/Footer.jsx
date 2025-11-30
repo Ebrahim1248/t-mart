@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
       <div className="container bg-background pt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
         <div className="pb-18">
-          <img src="/logo.png" alt="logo" />
+          <img src="/logo.png" alt="logo" className="h-auto" />
           <div className="flex gap-6 items-start pt-8 ">
             <FaLocationDot className='text-lg text-secondary'  />
             <p className=" text-sm font-normal text-secondary max-w-[164px]">194 Main Rd T, FS Rayed VIC 3057, USA</p>
