@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 
-const Discription = () => {
+const Description = () => {
 
   return (
     <section className='container pt-14 pb-38'>
@@ -40,4 +40,4 @@ const Discription = () => {
   )
 }
 
-export default Discription
+export default Description
