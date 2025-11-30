@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 const Banner = () => {
   return (
     <>
-        <section className=" pb-12">
+        <section className="bg-background pb-12">
             <div className=" container md:flex justify-around  py-[310px]" >
               <div className="">
                 <img src="/home-banner.png" alt="Home-banner" className='max-w-[432px]'/>
