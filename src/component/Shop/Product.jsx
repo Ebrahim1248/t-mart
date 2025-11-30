@@ -1,9 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router'
-import PopularProduct from '../../layouts/ProductCard';
-import Skeleton from '../../layouts/skeleton';
-import ProductCard from '../../layouts/ProductCard';
+import PopularProduct from '../../layouts/ProductCard'
+import Skeleton from '../src/layouts/Skeleton.jsx'
+import ProductCard from '../../layouts/ProductCard'
 const Product = () => {
     const [data,setData]=useState([]);
     let[num,setNum]=useState(1);
