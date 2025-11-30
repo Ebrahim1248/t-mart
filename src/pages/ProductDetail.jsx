@@ -3,7 +3,7 @@ import ShopBanner from '../layouts/ShopBanner'
 import SelectedProduct from '../productDetails/SelectedProduct'
 import Description from '../productDetails/Description'
 
-const ProductDeatail = () => {
+const ProductDetail = () => {
   
   return (
     <>
@@ -14,5 +14,5 @@ const ProductDeatail = () => {
   )
 }
 
-export default ProductDeatail
+export default ProductDetail
 
