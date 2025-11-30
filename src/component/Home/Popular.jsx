@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router'
 import axios from 'axios';
-import Skeleton from '../../layouts/skeleton';
+import Skeleton from '../../layouts/Skeleton';
 import ProductCard from '../../layouts/ProductCard';
 
 const Popular = () => {

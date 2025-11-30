@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router'
 import PopularProduct from '../../layouts/ProductCard'
-import Skeleton from '../src/layouts/Skeleton.jsx'
+import Skeleton from "../../layouts/Skeleton.jsx";
 import ProductCard from '../../layouts/ProductCard'
 const Product = () => {
     const [data,setData]=useState([]);
