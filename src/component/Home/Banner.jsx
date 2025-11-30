@@ -7,7 +7,7 @@ const Banner = () => {
         <section className=" pb-12">
             <div className=" container md:flex justify-around  py-[310px]" >
               <div className="">
-                <img src="/Home-banner.png" alt="Home-banner" className='max-w-[432px]'/>
+                <img src="/home-banner.png" alt="Home-banner" className='max-w-[432px]'/>
               </div>
               <div className="a ">
                 <h1 className='text-3xl font-normal text-primary max-w-[432px]  m-auto pb-6'>Awesome Product Collection In 2022</h1>
