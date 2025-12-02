@@ -48,7 +48,7 @@ const SelectedProduct = () => {
   return (
     <section className='container py-28'>
         <ToastContainer />
-        <div className="grid grid-cols-2 lg:flex lg:gap-2.5 ">
+        <div className="grid grid-col-1 md:grid-cols-2 lg:flex lg:gap-2.5 ">
             
             <ImageGallery items={images} thumbnailPosition='left' showFullscreenButton={false} />
             
