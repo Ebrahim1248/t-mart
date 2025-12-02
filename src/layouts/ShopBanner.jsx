@@ -10,7 +10,7 @@ const ShopBanner = ({pageName}) => {
             <ul className="flex gap-2 text-sm font-normal text-secondary justify-center pt-4">
                 <li><Link to="/">Home</Link></li>
                 <span>/</span>
-                <li><Link to={pageName=="product Detail"?"/productDetail":"/"+pageName} className='capitalize'>{pageName}</Link></li>
+                <li><Link to={pageName=="product Detail"?"#":"/"+pageName} className='capitalize'>{pageName}</Link></li>
             </ul>
         </div>
     </section>
