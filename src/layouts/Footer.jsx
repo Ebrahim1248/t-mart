@@ -53,7 +53,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-2">
-          <h3 className=''>Newsletter</h3>
+          <h3 className='text-lg font-semibold text-primary mb-8'>Newsletter</h3>
           <div className="flex flex-col gap-2.5 text-secondary text-sm font-normal">
             <p>Subscribe to our newsletter and get 10% off your first purchase .</p>
             <div className=" relative border-2 border-secondary md:w-[280px] lg:max-w-[450px]" >
