@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "routes": [
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)\\.js$", "dest": "/$1.js" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "^/(.*)\\.(js|css|png|jpg|jpeg|svg|webp|ico|map)$", "dest": "/$1.$2" },
+    { "src": "^/(.*)", "dest": "/index.html" }
   ]
 }
