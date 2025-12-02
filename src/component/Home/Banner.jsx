@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
         <section className="bg-background pb-12">
-            <div className=" container md:flex items-center justify-around  py-10" >
+            <div className=" container sm:flex items-center justify-around  py-10" >
               
               <img src="/Home-banner.png" alt="Home-banner" className='w-[150px] md:w[350px]  lg:w-[432px]'/>
               
