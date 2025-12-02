@@ -58,7 +58,7 @@ const Footer = () => {
             <p>Subscribe to our newsletter and get 10% off your first purchase .</p>
             <div className=" relative border-2 border-secondary  lg:max-w-[450px]" >
               <input type="email" placeholder='Email Adderss' className='border-r-2 border-r-secondary max-h-10 w-[220px]  lg:max-w-[420px]'/>
-              <button className='absolute right-0 lg:right-0 top-1/2 -translate-1/2'><FaArrowRight /></button>
+              <button className='absolute right-0 lg:right-0 w-7 top-1/2 -translate-1/2'><FaArrowRight /></button>
             </div>
           </div>
         </div>
