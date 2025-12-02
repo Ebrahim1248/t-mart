@@ -9,7 +9,7 @@ const Banner = () => {
               
               <img src="/Home-banner.png" alt="Home-banner" className='max-w-[432px]'/>
               
-              <div className="a ">
+              <div className=" ">
                 <h1 className='text-3xl font-normal text-primary max-w-[432px]  m-auto pb-6'>Awesome Product Collection In 2022</h1>
                 <Link to="/shop" className="inline-block rounded-md ">Shop Now</Link>
               </div>
