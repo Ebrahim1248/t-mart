@@ -7,10 +7,10 @@ const Banner = () => {
         <section className="bg-background pb-12">
             <div className=" container md:flex items-center justify-around  py-10" >
               
-              <img src="/Home-banner.png" alt="Home-banner" className='w-[150px] md:w[250px]  lg:w-[432px]'/>
+              <img src="/Home-banner.png" alt="Home-banner" className='w-[150px] md:w[350px]  lg:w-[432px]'/>
               
               <div className=" ">
-                <h1 className='text-3xl font-normal text-primary w-[150px] md:w-[250px] lg:w-[432px]  m-auto pb-6'>Awesome Product Collection In 2022</h1>
+                <h1 className='text-3xl font-normal text-primary w-[150px] md:w-[350px] lg:w-[432px]  m-auto pb-6'>Awesome Product Collection In 2022</h1>
                 <Link to="/shop" className="inline-block rounded-md ">Shop Now</Link>
               </div>
 
